@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: #70c5ce; /* cielo */
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    background: #70c5ce;
+    border: 2px solid #000;
+}
+
+#restartBtn {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}

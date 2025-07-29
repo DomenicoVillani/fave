@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Calcolatore di Fave</title>
+    <link rel="icon" type="image/x-icon" href="cursorFava.png">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="faveCuore.png" alt="Fava" height="100">
+            <span>Calcolatore di Fave</span>
+            <img src="faveCuore.png" alt="Fava" height="100">
+        </h1>
+        <p>Scopri quante fave puoi comprare con il tuo stipendio!</p>
+    </header>
+    <main class="container">
+        <span>Attualmente il costo delle fave è di:</span>
+        <br>
+        <span>Fave Fresche 5€ al KG</span>
+        <br>
+        <span>Fave Secche 4€ al KG</span>
+        <br> <br>
+        <label for="stipendio">Inserisci il tuo stipendio mensile (€):</label>
+        <input type="number" id="stipendio" placeholder="Es: 1200" />
+        <label for="fava">Seleziona il tipo di fava:</label>
+        <select name="fava" id="fava">
+            <option value="fresche">Fave fresche</option>
+            <option value="secche">Fave secche</option>
+        </select>
+        <br />
+        <br />
+        <button onclick="calcolaFave()">Calcola Fave!</button>
+        <div class="result" id="risultato"></div>
+    </main>
+
+    <footer>
+    🍃 Sito creato con amore e tante fave.
+    </footer>
+
+
+    <button id="menuToggle" aria-label="Apri menu giochi">🎮 Giochi</button>
+
+    <aside id="sideMenu" class="side-menu hidden">
+        <h3>🎮 Giochi</h3>
+        <ul>
+            <li><a href="catch.html">🟢 Fave che Cadono</a></li>
+            <li><a href="flappy.html">🕊️ Fava Flappy</a></li>
+        </ul>
+    </aside>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
