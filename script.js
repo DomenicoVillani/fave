@@ -60,7 +60,7 @@ function calcolaFave() {
         <div>
             Con uno stipendio di <strong>€${stipendio}</strong><br/>
             puoi comprare <strong>${kgFave} kg di fave ${tipoFava}</strong>!
-            <img src="faveFresche.png" alt="Fava" height="170">
+            <img src="/faveFresche.png" alt="Fava" height="170">
         </div>
     `;
 
